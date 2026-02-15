@@ -79,9 +79,9 @@
       px: x, py: y,
       age: Math.floor(rand(0, MAX_AGE * 0.4)),
       drift: rand(0.85, 1.15),
-      width: rand(0.75, 1.25),
+      width: rand(1.3, 2.2),
       hue: rand(195, 210),
-      alpha: rand(0.045, 0.08),
+      alpha: rand(0.18, 0.35),
     };
   };
 
