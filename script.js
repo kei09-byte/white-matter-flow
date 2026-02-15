@@ -3,7 +3,7 @@
   const ctx = canvas.getContext("2d", { alpha: true });
 
   const BG = "#0b0b0f";
-  const FADE = "rgba(11,11,15,0.08)";
+  const FADE = "rgba(11,11,15,0.04)";
 
   const BASE_COUNT = 220;
   const SPEED = 0.45;
@@ -79,9 +79,9 @@
       px: x, py: y,
       age: Math.floor(rand(0, MAX_AGE * 0.4)),
       drift: rand(0.85, 1.15),
-      width: rand(0.75, 1.25),
+      width: rand(1.1, 1.9),
       hue: rand(195, 210),
-      alpha: rand(0.045, 0.08),
+      alpha: rand(0.12, 0.18),
     };
   };
 
